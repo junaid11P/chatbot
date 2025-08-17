@@ -9,6 +9,7 @@
     "@nhost/react": "^3.11.1",
     "classnames": "^2.5.1",
     "cra-template-nhost-quickstart": "0.0.3",
+    "framer-motion": "^12.23.12",
     "graphql": "^16.11.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

@@ -53,8 +53,9 @@
 .dashboardImage {
   position: absolute;
   bottom: 0;
-  left: 35%;
-  transform: translateX(-50%);
-  width: 35vw; /* 35% of browser width */
+  left: 10%; /* stick it to left */
+  width: 35vw;
   max-width: 500px;
+  pointer-events: none; /* so clicks pass through */
 }
+
