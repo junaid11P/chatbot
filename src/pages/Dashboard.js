@@ -21,7 +21,7 @@ const Dashboard = () => {
   return (
     <>
       <Helmet>
-        <title>Dashboard - Nhost</title>
+        <title>Dashboard - JDChat</title>
       </Helmet>
 
       <div>

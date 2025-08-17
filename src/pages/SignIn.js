@@ -7,7 +7,7 @@ const SignInPage = () => {
   return (
     <>
       <Helmet>
-        <title>Sign in - Nhost</title>
+        <title>Sign in - JDChat</title>
       </Helmet>
 
       <div className={styles.container}>
