@@ -45,4 +45,5 @@ This project is a full-stack chatbot application with the following features:
   2. Call the **Hasura Action** to trigger the chatbot.
   3. Display the chatbot’s response.
 
-
+### Deployed : 
+- https://jdchatbot2.netlify.app/ 
