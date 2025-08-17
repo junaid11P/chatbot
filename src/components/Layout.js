@@ -10,9 +10,11 @@ import {
   UserIcon,
 } from '@heroicons/react/outline';
 import Avatar from './Avatar';
-import { useSignOut } from '@nhost/react';
+import { useSignOut, useUserData } from '@nhost/react';
+
+
 const Layout = () => {
-  const user = null;
+  const user = useUserData();
   const { signOut } = useSignOut();
 
   const menuItems = [

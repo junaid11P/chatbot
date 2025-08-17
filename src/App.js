@@ -10,7 +10,8 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 
 const nhost = new NhostClient({
-  backendUrl: `https://${process.env.REACT_APP_NHOST_SUBDOMAIN}.auth.${process.env.REACT_APP_NHOST_REGION}.nhost.run`,
+  subdomain: process.env.REACT_APP_NHOST_SUBDOMAIN,
+  region: process.env.REACT_APP_NHOST_REGION,
 });
 
 function App() {

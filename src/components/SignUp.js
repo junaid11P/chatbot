@@ -3,7 +3,7 @@ import styles from '../styles/components/SignUp.module.css';
 import { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import Input from './Input';
-import { useSignInEmailPassword } from '@nhost/react';
+import { useSignUpEmailPassword } from '@nhost/react';
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState('');
@@ -18,7 +18,7 @@ const SignUp = () => {
     needsEmailVerification,
     isError,
     error,
-  } = useSignInEmailPassword();
+  } = useSignUpEmailPassword();
 
   const handleOnSubmit = async (e) => {
     e.preventDefault();
