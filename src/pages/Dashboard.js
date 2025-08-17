@@ -39,6 +39,14 @@ const Dashboard = () => {
         <p className={styles['welcome-subtext']}>
           Get started by creating a new chat or continue your existing conversations.
         </p>
+        {/* Dashboard Image */}
+        <div className={styles.imageContainer}>
+          <img 
+            src="/dashboard-illustration.png" 
+            alt="Dashboard illustration" 
+            className={styles.dashboardImage}
+          /> 
+        </div>
 
 
         {/* This div is the target for the n8n chat widget */}
