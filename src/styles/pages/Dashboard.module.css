@@ -1,25 +1,46 @@
+/* src/styles/pages/Dashboard.module.css */
 .title {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 600;
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
 .welcome-text {
-  margin-top: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
 }
 
-.info-text {
-  margin-top: 1rem;
-  color: rgb(107, 114, 128);
+/* Style the chatbot container if you want to control its layout */
+#n8n-chat {
+  /* Example styles */
+  margin-top: 40px;
+  max-width: 450px;
+  /* position: fixed; */
+  /* bottom: 20px; */
+  /* right: 20px; */
+  /* z-index: 1000; */
 }
-.info-text > code {
-  color: rgb(59, 130, 246);
-  background-color: rgb(219, 234, 254);
-  border-radius: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 1px;
-  padding-bottom: 1px;
+
+.dashboardContent {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.dashboardContent h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.dashboardContent ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.dashboardContent li {
+    margin-bottom: 8px;
+    color: #444;
 }
