@@ -32,6 +32,14 @@ const Dashboard = () => {
             👋
           </span>
         </p>
+        <p className={styles['welcome-subtext']}>
+          We're glad to have you here. This is your personal space to manage chats, 
+          track messages, and explore features securely.
+        </p>
+        <p className={styles['welcome-subtext']}>
+          Get started by creating a new chat or continue your existing conversations.
+        </p>
+
 
         {/* This div is the target for the n8n chat widget */}
         <div id="n8n-chat"></div>
